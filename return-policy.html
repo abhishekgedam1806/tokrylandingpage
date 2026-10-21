@@ -46,27 +46,17 @@
     .logo-box {
       display: flex;
       align-items: center;
-      gap: 10px;
       text-decoration: none;
-      color: #FFFFFF;
     }
-    .logo-mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 8px;
-      background: linear-gradient(135deg, #FFDE99 0%, #D9822B 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #170E08;
-      font-weight: 800;
-      font-size: 18px;
+    .logo-box img {
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 6px;
+      transition: transform 0.2s ease;
     }
-    .logo-title {
-      font-family: var(--font-serif);
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: 0.05em;
+    .logo-box img:hover {
+      transform: scale(1.04);
     }
     .btn-back {
       background: #FFB703;
@@ -171,8 +161,7 @@
 
   <header class="header">
     <a href="index.html" class="logo-box">
-      <div class="logo-mark">🪔</div>
-      <div class="logo-title">TOKRY</div>
+      <img src="tokry-logo.png" alt="Tokry - Festive Luxury" />
     </a>
     <a href="index.html" class="btn-back">
       ← Back to Offer (₹999)
