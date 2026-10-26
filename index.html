@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KT4ZQJXC');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <title>TOKRY — Open the Door to the Sacred Glow of Diwali | Luxury Handcrafted MDF Décor Set ₹999 (MRP ₹1,499)</title>
@@ -1904,6 +1911,10 @@
   </style>
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KT4ZQJXC"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- ================================================================
        1. TOP ANNOUNCEMENT TICKER
@@ -2874,6 +2885,9 @@
         <a id="wa-track-link" href="#" target="_blank" class="btn-submit-order" style="text-decoration: none; margin-bottom: 10px;">
           Track on WhatsApp 📱
         </a>
+        <a id="full-success-page-link" href="order-success.html" class="btn-buy-plan outline" style="text-decoration: none; margin-bottom: 10px; display: inline-flex; align-items: center; justify-content: center; width: 100%;">
+          View Order Tracking &amp; Receipt 📄
+        </a>
         <button type="button" class="btn-buy-plan outline" onclick="closeCheckout()">Close Window</button>
       </div>
     </div>
@@ -3045,6 +3059,15 @@
 
         document.getElementById('checkout-step-form').style.display = 'none';
         document.getElementById('checkout-step-success').style.display = 'block';
+
+        const successUrl = `order-success.html?order_id=${encodeURIComponent(orderId)}&plan=${encodeURIComponent(activePlan)}&amount=${totalPay}&name=${encodeURIComponent(custName)}`;
+        const linkEl = document.getElementById('full-success-page-link');
+        if (linkEl) linkEl.href = successUrl;
+
+        // Auto-redirect to order success page
+        setTimeout(() => {
+          window.location.href = successUrl;
+        }, 1200);
 
         btn.disabled = false;
         btn.innerHTML = `<span>Confirm Order &amp; Book Delivery 🚀</span>`;

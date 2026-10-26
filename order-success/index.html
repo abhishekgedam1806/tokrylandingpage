@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KT4ZQJXC');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>Order Confirmed 🎉 — TOKRY Luxury Festive Décor</title>
+  <meta name="description" content="Thank you for choosing TOKRY! Your handcrafted festive décor set has been confirmed. View order tracking, invoice details, and dispatch timeline.">
+
+  <!-- Mobile & PWA Configuration -->
+  <meta name="theme-color" content="#160E08">
+  <meta name="msapplication-navbutton-color" content="#160E08">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --clr-gold: #E5A93C;
+      --clr-gold-light: #FFD479;
+      --clr-gold-hover: #D09328;
+      --clr-gold-dark: #9B5C00;
+      
+      --clr-amber: #D9822B;
+      --clr-amber-hover: #BF6D1C;
+      --clr-amber-glow: rgba(217, 130, 43, 0.28);
+      
+      --clr-crimson: #8E1616;
+      --clr-crimson-light: #B32020;
+      
+      --clr-bg-page: #FBF8F4;
+      --clr-bg-surface: #FFFFFF;
+      --clr-bg-alt: #F5EFE6;
+      --clr-bg-dark: #150C07;
+      --clr-bg-darker: #0E0704;
+      
+      --clr-text-main: #1C1713;
+      --clr-text-muted: #5E534B;
+      --clr-text-light: #8E837A;
+      --clr-text-inv: #FAF6F0;
+      
+      --clr-border: #EADBCE;
+      --clr-border-dark: #382417;
+      --clr-success: #1B7A3D;
+      --clr-success-bg: #EAF7EE;
+      --clr-success-border: #A3D9B1;
+      
+      --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      
+      --shadow-sm: 0 2px 10px rgba(22, 14, 8, 0.05);
+      --shadow-md: 0 10px 30px rgba(22, 14, 8, 0.08);
+      --shadow-lg: 0 20px 50px rgba(22, 14, 8, 0.12);
+      --shadow-gold: 0 12px 35px rgba(217, 130, 43, 0.25);
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 22px;
+      --radius-xl: 32px;
+      --radius-full: 9999px;
+      
+      --header-h: 74px;
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--clr-bg-page);
+      color: var(--clr-text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Ambient Festive Background Glow */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1000px;
+      height: 480px;
+      background: radial-gradient(circle, rgba(229, 169, 60, 0.15) 0%, rgba(217, 130, 43, 0.08) 40%, rgba(251, 248, 244, 0) 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    button {
+      font-family: inherit;
+      border: none;
+      background: none;
+      cursor: pointer;
+      outline: none;
+      transition: var(--transition);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Confetti Canvas */
+    #confetti-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 999;
+    }
+
+    /* ================================================================
+       TOP ANNOUNCEMENT BAR
+       ================================================================ */
+    .announcement-bar {
+      background: linear-gradient(90deg, #9B5C00 0%, #D9822B 50%, #9B5C00 100%);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 9px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      letter-spacing: 0.02em;
+      position: relative;
+      z-index: 60;
+    }
+
+    .announcement-tag {
+      background-color: rgba(0, 0, 0, 0.25);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+    }
+
+    /* ================================================================
+       HEADER
+       ================================================================ */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 55;
+      background: rgba(255, 253, 249, 0.95);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--clr-border);
+      height: var(--header-h);
+      display: flex;
+      align-items: center;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-logo img {
+      height: 46px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    .brand-logo:hover img {
+      transform: scale(1.03);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn-return-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #FFFFFF;
+      color: var(--clr-text-main);
+      border: 1px solid var(--clr-border);
+      padding: 9px 18px;
+      border-radius: var(--radius-full);
+      font-size: 13.5px;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+
+    .btn-return-home:hover {
+      border-color: var(--clr-amber);
+      color: var(--clr-amber);
+      background: var(--clr-bg-alt);
+      transform: translateY(-1px);
+    }
+
+    /* ================================================================
+       MAIN SUCCESS HERO SECTION
+       ================================================================ */
+    .success-hero {
+      padding: 40px 0 20px 0;
+      text-align: center;
+    }
+
+    /* Animated Checkmark Badge */
+    .badge-icon-wrapper {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 22px;
+    }
+
+    .glow-ring {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(27, 122, 61, 0.28) 0%, rgba(229, 169, 60, 0.15) 70%, transparent 100%);
+      animation: pulse-ring 2.2s infinite ease-out;
+    }
+
+    @keyframes pulse-ring {
+      0% {
+        transform: translate(-50%, -50%) scale(0.85);
+        opacity: 0.9;
+      }
+      50% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 0.4;
+      }
+      100% {
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+    .success-icon-badge {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2E8B57 0%, #176536 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+      box-shadow: 0 10px 25px rgba(27, 122, 61, 0.35), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+      position: relative;
+      z-index: 2;
+      animation: scale-up 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+    }
+
+    @keyframes scale-up {
+      0% {
+        transform: scale(0.3);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .success-icon-badge svg {
+      width: 40px;
+      height: 40px;
+      stroke-width: 2.8;
+      stroke-dasharray: 48;
+      stroke-dashoffset: 48;
+      animation: stroke-draw 0.7s 0.25s ease-out forwards;
+    }
+
+    @keyframes stroke-draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .festive-subtag {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(217, 130, 43, 0.12);
+      border: 1px solid rgba(217, 130, 43, 0.3);
+      color: var(--clr-gold-dark);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 12px;
+    }
+
+    .success-title {
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 4.2vw, 42px);
+      font-weight: 700;
+      color: var(--clr-bg-dark);
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .success-title span {
+      background: linear-gradient(135deg, var(--clr-amber) 0%, #A83A00 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .success-desc {
+      font-size: 16px;
+      color: var(--clr-text-muted);
+      max-width: 640px;
+      margin: 0 auto 28px auto;
+      line-height: 1.65;
+    }
+
+    /* Order Reference Banner */
+    .order-reference-pill {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: #FFFFFF;
+      border: 1px solid var(--clr-border);
+      box-shadow: var(--shadow-sm);
+      border-radius: var(--radius-lg);
+      padding: 12px 22px;
+      margin-bottom: 34px;
+    }
+
+    .order-ref-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .order-ref-label {
+      color: var(--clr-text-light);
+      font-weight: 500;
+    }
+
+    .order-ref-val {
+      font-weight: 700;
+      color: var(--clr-text-main);
+    }
+
+    .copy-id-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--clr-bg-alt);
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-sm);
+      padding: 3px 9px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--clr-amber-hover);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .copy-id-btn:hover {
+      background: #F0E5D7;
+      border-color: var(--clr-amber);
+    }
+
+    .order-ref-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--clr-border);
+    }
+
+    .status-badge-verified {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--clr-success-bg);
+      color: var(--clr-success);
+      font-size: 12.5px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: var(--radius-full);
+      border: 1px solid var(--clr-success-border);
+    }
+
+    /* ================================================================
+       DELIVERY TRACKING PROGRESS STEPPER
+       ================================================================ */
+    .tracking-card {
+      background: #FFFFFF;
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      padding: 32px 28px;
+      margin-bottom: 30px;
+    }
+
+    .tracking-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+      gap: 14px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--clr-border);
+    }
+
+    .tracking-header-left h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      display: flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .tracking-header-left p {
+      font-size: 13.5px;
+      color: var(--clr-text-muted);
+      margin-top: 3px;
+    }
+
+    .delivery-eta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #FFF9ED;
+      border: 1px solid rgba(229, 169, 60, 0.4);
+      padding: 8px 16px;
+      border-radius: var(--radius-full);
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--clr-gold-dark);
+    }
+
+    /* Steps Layout */
+    .stepper-timeline {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .stepper-timeline::before {
+      content: '';
+      position: absolute;
+      top: 22px;
+      left: 12%;
+      right: 12%;
+      height: 4px;
+      background: #EADBCE;
+      z-index: 1;
+    }
+
+    .stepper-timeline-progress {
+      position: absolute;
+      top: 22px;
+      left: 12%;
+      width: 25%;
+      height: 4px;
+      background: linear-gradient(90deg, #1B7A3D 0%, var(--clr-amber) 100%);
+      z-index: 2;
+      transition: width 0.8s ease;
+    }
+
+    .step-item {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 8px;
+    }
+
+    .step-node {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      border: 3px solid #EADBCE;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      margin-bottom: 12px;
+      transition: var(--transition);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .step-item.completed .step-node {
+      background: #1B7A3D;
+      border-color: #1B7A3D;
+      color: #FFFFFF;
+    }
+
+    .step-item.active .step-node {
+      background: #FFFFFF;
+      border-color: var(--clr-amber);
+      color: var(--clr-amber);
+      box-shadow: 0 0 0 5px rgba(217, 130, 43, 0.18);
+      animation: pulse-node 2s infinite;
+    }
+
+    @keyframes pulse-node {
+      0%, 100% {
+        box-shadow: 0 0 0 5px rgba(217, 130, 43, 0.18);
+      }
+      50% {
+        box-shadow: 0 0 0 9px rgba(217, 130, 43, 0.28);
+      }
+    }
+
+    .step-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      margin-bottom: 3px;
+    }
+
+    .step-sub {
+      font-size: 12px;
+      color: var(--clr-text-muted);
+      line-height: 1.35;
+    }
+
+    /* ================================================================
+       TWO COLUMN GRID: ORDER DETAILS & HIGHLIGHTS
+       ================================================================ */
+    .order-content-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      margin-bottom: 36px;
+    }
+
+    .order-box-card {
+      background: #FFFFFF;
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      padding: 28px;
+    }
+
+    .card-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--clr-border);
+    }
+
+    .card-title-row h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Product Item in Receipt */
+    .ordered-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 16px;
+      background: var(--clr-bg-page);
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-md);
+      margin-bottom: 20px;
+    }
+
+    .ordered-thumb {
+      width: 72px;
+      height: 72px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+      border: 1px solid var(--clr-border);
+      background: #FFFFFF;
+      flex-shrink: 0;
+    }
+
+    .ordered-info {
+      flex: 1;
+    }
+
+    .ordered-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      margin-bottom: 4px;
+    }
+
+    .ordered-edition {
+      font-size: 12px;
+      color: var(--clr-gold-dark);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .ordered-specs {
+      font-size: 12px;
+      color: var(--clr-text-muted);
+    }
+
+    .ordered-price-tag {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--clr-text-main);
+      text-align: right;
+    }
+
+    .ordered-mrp {
+      font-size: 12px;
+      color: var(--clr-text-light);
+      text-decoration: line-through;
+    }
+
+    /* What's Included Mini List */
+    .package-inclusions {
+      margin-bottom: 22px;
+    }
+
+    .package-inclusions h4 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--clr-text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 10px;
+    }
+
+    .inclusions-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+    }
+
+    .inclusion-tag {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      background: #FAF6F0;
+      border: 1px solid var(--clr-border);
+      padding: 7px 11px;
+      border-radius: var(--radius-sm);
+      font-size: 12px;
+      color: var(--clr-text-main);
+      font-weight: 500;
+    }
+
+    /* Price Breakdown */
+    .bill-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding-top: 14px;
+      border-top: 1px dashed var(--clr-border);
+    }
+
+    .bill-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      color: var(--clr-text-muted);
+    }
+
+    .bill-row.discount {
+      color: var(--clr-success);
+      font-weight: 600;
+    }
+
+    .bill-row.free-ship {
+      color: var(--clr-gold-dark);
+      font-weight: 600;
+    }
+
+    .bill-row.total {
+      padding-top: 12px;
+      margin-top: 6px;
+      border-top: 1px solid var(--clr-border);
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--clr-text-main);
+    }
+
+    .bill-row.total .total-amount {
+      color: var(--clr-amber-hover);
+      font-size: 20px;
+    }
+
+    /* Side Support & Actions Card */
+    .support-actions-card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .wa-vip-box {
+      background: linear-gradient(135deg, #0F3820 0%, #165330 100%);
+      color: #FFFFFF;
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(22, 83, 48, 0.22);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .wa-vip-box::after {
+      content: '💬';
+      position: absolute;
+      right: -10px;
+      bottom: -15px;
+      font-size: 84px;
+      opacity: 0.12;
+      pointer-events: none;
+    }
+
+    .wa-vip-box h3 {
+      font-size: 17px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      color: #72E8A0;
+    }
+
+    .wa-vip-box p {
+      font-size: 13.5px;
+      color: #E2F5E9;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .btn-wa-action {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      background: #25D366;
+      color: #0E341B;
+      font-weight: 800;
+      font-size: 14px;
+      padding: 12px 20px;
+      border-radius: var(--radius-md);
+      transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(37, 211, 102, 0.35);
+    }
+
+    .btn-wa-action:hover {
+      background: #20BA5A;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(37, 211, 102, 0.45);
+    }
+
+    /* Action Buttons Row */
+    .actions-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .btn-action-outline {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #FFFFFF;
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-md);
+      padding: 12px 14px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--clr-text-main);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .btn-action-outline:hover {
+      border-color: var(--clr-amber);
+      color: var(--clr-amber);
+      background: var(--clr-bg-alt);
+      transform: translateY(-2px);
+    }
+
+    /* Guarantees Box */
+    .guarantees-card {
+      background: #FFFFFF;
+      border: 1px solid var(--clr-border);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .guarantees-card h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .guarantee-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .guarantee-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .guarantee-icon {
+      font-size: 18px;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .guarantee-text h5 {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--clr-text-main);
+      margin-bottom: 2px;
+    }
+
+    .guarantee-text p {
+      font-size: 12px;
+      color: var(--clr-text-muted);
+      line-height: 1.4;
+    }
+
+    /* Care & Tips Card */
+    .care-card {
+      background: #FFFDF9;
+      border: 1px dashed var(--clr-gold);
+      border-radius: var(--radius-lg);
+      padding: 20px 22px;
+      font-size: 13px;
+      color: var(--clr-text-muted);
+      margin-bottom: 34px;
+    }
+
+    .care-card h4 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--clr-gold-dark);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ================================================================
+       FOOTER
+       ================================================================ */
+    .footer {
+      background-color: var(--clr-bg-darker);
+      color: #9E8C7E;
+      font-size: 13.5px;
+      padding: 40px 0 30px 0;
+      text-align: center;
+      border-top: 1px solid var(--clr-border-dark);
+      margin-top: auto;
+    }
+
+    .footer a {
+      color: var(--clr-gold-light);
+      margin: 0 6px;
+    }
+
+    .footer a:hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+    }
+
+    /* Toast Notification */
+    #toast-notice {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #170E08;
+      color: #FFFFFF;
+      border: 1px solid var(--clr-gold);
+      padding: 12px 24px;
+      border-radius: var(--radius-full);
+      font-size: 13.5px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+      z-index: 1000;
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      pointer-events: none;
+    }
+
+    #toast-notice.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* ================================================================
+       RESPONSIVE MEDIA QUERIES
+       ================================================================ */
+    @media (max-width: 900px) {
+      .order-content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stepper-timeline {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 12px;
+      }
+
+      .stepper-timeline::before,
+      .stepper-timeline-progress {
+        display: none;
+      }
+
+      .step-item {
+        align-items: flex-start;
+        text-align: left;
+        flex-direction: row;
+        gap: 12px;
+      }
+
+      .step-node {
+        margin-bottom: 0;
+        flex-shrink: 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .announcement-bar {
+        font-size: 11.5px;
+        flex-direction: column;
+        gap: 4px;
+        padding: 6px 12px;
+      }
+
+      .success-title {
+        font-size: 26px;
+      }
+
+      .order-reference-pill {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px;
+        gap: 8px;
+      }
+
+      .order-ref-divider {
+        display: none;
+      }
+
+      .inclusions-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .actions-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .tracking-card {
+        padding: 20px 16px;
+      }
+
+      .order-box-card {
+        padding: 20px 16px;
+      }
+    }
+
+    /* ================================================================
+       PRINT MEDIA STYLES (Clean Luxury PDF/Invoice Output)
+       ================================================================ */
+    @media print {
+      body {
+        background: #FFFFFF !important;
+        color: #000000 !important;
+      }
+
+      body::before,
+      .announcement-bar,
+      .header,
+      #confetti-canvas,
+      .btn-wa-action,
+      .actions-grid,
+      .btn-return-home,
+      .footer,
+      #toast-notice,
+      .glow-ring {
+        display: none !important;
+      }
+
+      .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+      }
+
+      .tracking-card,
+      .order-box-card,
+      .guarantees-card {
+        border: 1px solid #CCC !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+      }
+
+      .order-content-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KT4ZQJXC"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <span class="announcement-tag">Auspicious Diwali</span>
+    <span>✨ Shubh Aarambh — Thank You for Choosing TOKRY Handcrafted Décor!</span>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="TOKRY Home">
+        <img src="tokry-logo.png" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src='../tokry-logo.png';}" alt="TOKRY Festive Décor Logo">
+      </a>
+      <div class="header-actions">
+        <a href="index.html" class="btn-return-home">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"/></svg>
+          <span>Back to Store</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+    
+    <!-- Hero Order Success Celebration -->
+    <section class="success-hero">
+      <div class="badge-icon-wrapper">
+        <div class="glow-ring"></div>
+        <div class="success-icon-badge">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="festive-subtag">
+        <span>🪔 Shubh Aarambh • Order Confirmed</span>
+      </div>
+
+      <h1 class="success-title">
+        Thank You, <span id="display-cust-name">Valued Patron</span>!
+      </h1>
+      <p class="success-desc">
+        Your order has been successfully placed and received with gratitude. Our master artisans are preparing your luxury handcrafted festive box for express dispatch.
+      </p>
+
+      <!-- Reference Details Pill -->
+      <div class="order-reference-pill">
+        <div class="order-ref-item">
+          <span class="order-ref-label">Order ID:</span>
+          <span class="order-ref-val" id="display-order-id">#TK-84920</span>
+          <button type="button" class="copy-id-btn" onclick="copyOrderId()" title="Copy Order ID">
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            <span>Copy</span>
+          </button>
+        </div>
+
+        <div class="order-ref-divider"></div>
+
+        <div class="order-ref-item">
+          <span class="order-ref-label">Date:</span>
+          <span class="order-ref-val" id="display-order-date">Oct 23, 2026</span>
+        </div>
+
+        <div class="order-ref-divider"></div>
+
+        <div class="order-ref-item">
+          <span class="order-ref-label">Payment:</span>
+          <span class="status-badge-verified">
+            <svg width="13" height="13" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            <span>Verified &amp; Paid</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Delivery Progress Stepper Card -->
+    <section class="tracking-card">
+      <div class="tracking-header">
+        <div class="tracking-header-left">
+          <h3>
+            <svg width="22" height="22" fill="none" stroke="var(--clr-amber)" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.25V4.875A1.125 1.125 0 0013.125 3.75H3.375A1.125 1.125 0 002.25 4.875v9.375c0 .621.504 1.125 1.125 1.125h1.5"/></svg>
+            Live Delivery &amp; Dispatch Status
+          </h3>
+          <p>Real-time updates are dispatched directly to your WhatsApp and SMS.</p>
+        </div>
+        <div class="delivery-eta-badge">
+          <span>🚚 Estimated Delivery: <strong>2 – 4 Business Days</strong></span>
+        </div>
+      </div>
+
+      <div class="stepper-timeline">
+        <div class="stepper-timeline-progress"></div>
+
+        <!-- Step 1 -->
+        <div class="step-item completed">
+          <div class="step-node">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"/></svg>
+          </div>
+          <div>
+            <div class="step-title">Order Confirmed</div>
+            <div class="step-sub">Payment Verified &amp; Logged</div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-item active">
+          <div class="step-node">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>
+          </div>
+          <div>
+            <div class="step-title">Artisan Packing</div>
+            <div class="step-sub">Quality check in progress</div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-item">
+          <div class="step-node">
+            <svg width="18" height="18" fill="none" stroke="#A89689" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/></svg>
+          </div>
+          <div>
+            <div class="step-title">Express Dispatch</div>
+            <div class="step-sub">BlueDart / Delhivery tracking</div>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="step-item">
+          <div class="step-node">
+            <svg width="18" height="18" fill="none" stroke="#A89689" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg>
+          </div>
+          <div>
+            <div class="step-title">Home Delivery</div>
+            <div class="step-sub">Auspicious entrance blessings</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two-Column Grid: Order Receipt & Support/Actions -->
+    <section class="order-content-grid">
+      
+      <!-- Left Column: Detailed Order Summary -->
+      <div class="order-box-card">
+        <div class="card-title-row">
+          <h3>
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Order Receipt &amp; Summary
+          </h3>
+          <span style="font-size: 12px; color: var(--clr-text-light);">Receipt # <span id="receipt-no-span">TK-84920</span></span>
+        </div>
+
+        <!-- Item Row -->
+        <div class="ordered-item">
+          <img src="Festive Lantern Entrance with Rangoli.png" onerror="if(!this.dataset.retried){this.dataset.retried=1;this.src='../Festive Lantern Entrance with Rangoli.png';}" alt="TOKRY Handcrafted Festive Decor Set" class="ordered-thumb">
+          <div class="ordered-info">
+            <div class="ordered-edition">LIMITED HERITAGE EDITION</div>
+            <div class="ordered-title" id="display-package-name">TOKRY Handcrafted Festive Décor Set (1 Complete Home Box)</div>
+            <div class="ordered-specs">High-Grade 3.2mm MDF • Precision Laser Etched • Waterproof Laminated</div>
+          </div>
+          <div class="ordered-price-tag">
+            <div id="display-item-price">₹999</div>
+            <div class="ordered-mrp">₹1,499</div>
+          </div>
+        </div>
+
+        <!-- Inclusions Checklist -->
+        <div class="package-inclusions">
+          <h4>Items Hand-Packed in Your Box:</h4>
+          <div class="inclusions-grid">
+            <div class="inclusion-tag">🌸 4-Foot Handcrafted Door Toran</div>
+            <div class="inclusion-tag">🪔 Shubh-Labh Hanging Latkan Set</div>
+            <div class="inclusion-tag">🕯️ 2x 5" Dual Tealight Bases</div>
+            <div class="inclusion-tag">🏮 11" Traditional Hanging Kandil</div>
+            <div class="inclusion-tag">🕉️ 3x5" Sacred Ganpati-Laxmi Magnet</div>
+            <div class="inclusion-tag">✨ Festive Greeting Card &amp; Gift Box</div>
+          </div>
+        </div>
+
+        <!-- Bill Breakdown -->
+        <div class="bill-rows">
+          <div class="bill-row">
+            <span>List Price (MRP)</span>
+            <span id="bill-mrp">₹1,499</span>
+          </div>
+          <div class="bill-row discount">
+            <span>Special Festive Launch Discount</span>
+            <span id="bill-discount">-₹500</span>
+          </div>
+          <div class="bill-row free-ship">
+            <span>Pan-India Express Courier (BlueDart / Delhivery)</span>
+            <span>FREE (₹0)</span>
+          </div>
+          <div class="bill-row">
+            <span>GST &amp; Packaging</span>
+            <span>Included (0% extra)</span>
+          </div>
+          <div class="bill-row total">
+            <span>Total Amount Paid:</span>
+            <span class="total-amount" id="display-total-amount">₹999</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: WhatsApp VIP Concierge & Actions -->
+      <div class="support-actions-card">
+        
+        <!-- WhatsApp Live Tracking Card -->
+        <div class="wa-vip-box">
+          <h3>
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 2C6.496 2 2 6.496 2 12.031c0 1.954.561 3.778 1.531 5.328L2.062 22l4.781-1.469a9.987 9.987 0 005.188 1.469c5.535 0 10.031-4.496 10.031-10.031C22.062 6.496 17.566 2 12.031 2zm0 18.375c-1.637 0-3.176-.465-4.492-1.266l-.324-.195-2.836.871.879-2.766-.215-.344a8.283 8.283 0 01-1.328-4.644c0-4.602 3.742-8.344 8.316-8.344 4.574 0 8.344 3.742 8.344 8.344 0 4.602-3.77 8.344-8.344 8.344zm4.563-6.25c-.25-.125-1.477-.727-1.707-.813-.23-.086-.398-.125-.566.125-.168.25-.652.813-.797.98-.145.168-.293.188-.543.063-.25-.125-1.055-.387-2.012-1.242-.746-.664-1.25-1.484-1.395-1.734-.145-.25-.016-.387.109-.512.113-.113.25-.293.375-.438.125-.145.168-.25.25-.414.086-.168.043-.316-.02-.438-.066-.125-.566-1.367-.777-1.875-.207-.492-.418-.426-.574-.434-.148-.008-.316-.008-.484-.008-.168 0-.441.063-.672.316-.23.25-.883.863-.883 2.105 0 1.242.902 2.441 1.027 2.61.125.168 1.777 2.715 4.305 3.809.602.262 1.07.418 1.437.535.605.191 1.156.164 1.59.1.484-.074 1.477-.605 1.688-1.188.207-.586.207-1.086.145-1.188-.063-.102-.23-.164-.48-.289z"/></svg>
+            Priority WhatsApp Concierge
+          </h3>
+          <p>
+            Receive your live tracking AWB number, courier updates, and instant support from our dedicated festive care team.
+          </p>
+          <a id="btn-wa-link" href="#" target="_blank" class="btn-wa-action">
+            <span>Track &amp; Chat on WhatsApp</span>
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+          </a>
+        </div>
+
+        <!-- Quick Action Buttons -->
+        <div class="actions-grid">
+          <button type="button" class="btn-action-outline" onclick="printInvoice()">
+            <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24-1.076-.67-2.83-1.082-4.83m0 0a3.75 3.75 0 013.72-4.529h5.284a3.75 3.75 0 013.72 4.529l-.78 3.816M19.5 12h.75a2.25 2.25 0 012.25 2.25v5.25a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 19.5v-5.25a2.25 2.25 0 012.25-2.25H4.5m15 0v3.75H4.5V12m15 0H4.5"/></svg>
+            <span>Print Invoice</span>
+          </button>
+
+          <a href="index.html" class="btn-action-outline">
+            <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"/></svg>
+            <span>Shop More</span>
+          </a>
+        </div>
+
+        <!-- Guarantees Card -->
+        <div class="guarantees-card">
+          <h4>
+            <svg width="18" height="18" fill="none" stroke="var(--clr-amber)" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+            TOKRY Authenticity &amp; Care Guarantees
+          </h4>
+
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🛡️</span>
+            <div class="guarantee-text">
+              <h5>100% Zero-Damage Transit Guarantee</h5>
+              <p>Triple-layer heavy corrugated box with foam inserts. Free 24h replacement if damaged.</p>
+            </div>
+          </div>
+
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🌿</span>
+            <div class="guarantee-text">
+              <h5>Eco-Friendly MDF &amp; Non-Toxic Inks</h5>
+              <p>Engineered for safe home use near lights and diyas. Sturdy, reusable year after year.</p>
+            </div>
+          </div>
+
+          <div class="guarantee-item">
+            <span class="guarantee-icon">⚡</span>
+            <div class="guarantee-text">
+              <h5>Express Priority Dispatch</h5>
+              <p>Dispatched within 24 hours from our workshop with live SMS &amp; WhatsApp AWB links.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Hanging & Care Guide Box -->
+    <section class="care-card">
+      <h4>
+        <span>✨ Master Tips for Hanging &amp; Preserving Your TOKRY Set</span>
+      </h4>
+      <p>
+        • <strong>No-Drill Installation:</strong> Use the pre-fitted hanging loops on standard nails or adhesive hooks (e.g. 3M Command hooks) on your entrance door.<br>
+        • <strong>Cleaning:</strong> Simply wipe clean with a soft dry microfiber cloth before storing in the provided keepsake box for next Diwali.<br>
+        • <strong>Candles &amp; Diyas:</strong> Dual Tealight holders work best with standard wax or battery-operated LED tealight candles.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p style="font-weight: 700; color: #E8DACF; margin-bottom: 6px; font-size: 15px;">TOKRY LIFESTYLE PVT. LTD.</p>
+      <p style="margin-bottom: 14px;">Authentic Handcrafted Festive Décor &amp; Heritage Lifestyle</p>
+      <div style="margin-bottom: 12px; font-size: 13.5px;">
+        <a href="index.html">Home</a> •
+        <a href="index.html#whats-inside">What's Inside</a> •
+        <a href="index.html#gallery">Real Home Gallery</a> •
+        <a href="index.html#offers">Festive Offers</a> •
+        <a href="index.html#faq">FAQs</a>
+      </div>
+      <div style="margin-bottom: 18px; font-size: 12.5px;">
+        <a href="return-policy.html">Return &amp; Refund Policy</a> •
+        <a href="privacy-policy.html">Privacy Policy</a> •
+        <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+      </div>
+      <p style="font-size: 11.5px; color: #736357;">
+        © 2026 TOKRY. All Rights Reserved. Handcrafted with pride in India 🇮🇳
+      </p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div id="toast-notice">
+    <span>Copied to clipboard!</span>
+  </div>
+
+  <!-- Interactive Logic & Confetti Script -->
+  <script>
+    // 1. Order Parameter Extraction & State Management
+    (function initOrderPage() {
+      const urlParams = new URLSearchParams(window.location.search);
+      
+      // Order ID
+      let orderId = urlParams.get('order_id') || urlParams.get('orderId') || urlParams.get('razorpay_order_id') || urlParams.get('id');
+      if (!orderId) {
+        // Retrieve from sessionStorage if returning user, or generate stable ID
+        let cachedId = sessionStorage.getItem('tokry_last_order_id');
+        if (cachedId) {
+          orderId = cachedId;
+        } else {
+          orderId = '#TK-' + Math.floor(10000 + Math.random() * 90000);
+          sessionStorage.setItem('tokry_last_order_id', orderId);
+        }
+      } else {
+        if (!orderId.startsWith('#')) orderId = '#' + orderId;
+        sessionStorage.setItem('tokry_last_order_id', orderId);
+      }
+
+      // Customer Name
+      const custName = urlParams.get('name') || urlParams.get('cust_name') || 'Patron';
+      
+      // Amount & Plan
+      const plan = urlParams.get('plan') || 'bundle-1';
+      let amount = urlParams.get('amount');
+      
+      let packageName = "TOKRY Handcrafted Festive Décor Set (1 Complete Home Box)";
+      let itemPrice = "₹999";
+      let listMrp = "₹1,499";
+      let discountAmt = "-₹500";
+      let totalPaid = "₹999";
+
+      if (plan === 'bundle-2' || amount === '1799') {
+        packageName = "TOKRY Handcrafted Festive Décor Gifting Bundle (2 Complete Boxes)";
+        itemPrice = "₹1,799";
+        listMrp = "₹2,998";
+        discountAmt = "-₹1,199";
+        totalPaid = "₹1,799";
+      } else if (amount && !isNaN(amount)) {
+        totalPaid = "₹" + Number(amount).toLocaleString('en-IN');
+        itemPrice = totalPaid;
+      }
+
+      // Update DOM
+      document.getElementById('display-order-id').textContent = orderId;
+      document.getElementById('receipt-no-span').textContent = orderId.replace('#', '');
+      document.getElementById('display-cust-name').textContent = custName !== 'Patron' ? custName : 'Valued Patron';
+      document.getElementById('display-package-name').textContent = packageName;
+      document.getElementById('display-item-price').textContent = itemPrice;
+      document.getElementById('bill-mrp').textContent = listMrp;
+      document.getElementById('bill-discount').textContent = discountAmt;
+      document.getElementById('display-total-amount').textContent = totalPaid;
+
+      // Format Date
+      const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+      const todayStr = new Date().toLocaleDateString('en-US', dateOptions);
+      document.getElementById('display-order-date').textContent = todayStr;
+
+      // Configure WhatsApp Action Link
+      const waText = encodeURIComponent(
+        `Namaste TOKRY Team! 🙏 I have successfully placed Order ${orderId} (${packageName}) for ${totalPaid}.\nName: ${custName}\nPlease share live tracking & dispatch updates.`
+      );
+      document.getElementById('btn-wa-link').href = `https://wa.me/919876543210?text=${waText}`;
+    })();
+
+    // 2. Copy Order ID Helper
+    function copyOrderId() {
+      const orderId = document.getElementById('display-order-id').textContent;
+      navigator.clipboard.writeText(orderId).then(() => {
+        showToast('📋 Order ID ' + orderId + ' copied to clipboard!');
+      }).catch(() => {
+        showToast('Order ID: ' + orderId);
+      });
+    }
+
+    // 3. Toast Helper
+    function showToast(msg) {
+      const toast = document.getElementById('toast-notice');
+      toast.innerHTML = `<span>${msg}</span>`;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // 4. Print / PDF Helper
+    function printInvoice() {
+      window.print();
+    }
+
+    // 5. Celebration Confetti Cannon
+    (function launchConfetti() {
+      const canvas = document.getElementById('confetti-canvas');
+      const ctx = canvas.getContext('2d');
+
+      let width = window.innerWidth;
+      let height = window.innerHeight;
+      canvas.width = width;
+      canvas.height = height;
+
+      window.addEventListener('resize', () => {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+      });
+
+      const colors = ['#E5A93C', '#D9822B', '#8E1616', '#2E8B57', '#FFD479', '#FFF2D6', '#E94E77'];
+      const particles = [];
+      const totalParticles = 110;
+
+      for (let i = 0; i < totalParticles; i++) {
+        particles.push({
+          x: width * 0.5 + (Math.random() * 200 - 100),
+          y: height * 0.35 + (Math.random() * 100 - 50),
+          vx: (Math.random() - 0.5) * 14,
+          vy: Math.random() * -12 - 5,
+          size: Math.random() * 8 + 4,
+          color: colors[Math.floor(Math.random() * colors.length)],
+          rotation: Math.random() * 360,
+          vRot: (Math.random() - 0.5) * 10,
+          opacity: 1,
+          gravity: 0.28,
+          drag: 0.985
+        });
+      }
+
+      let animationFrame;
+      let startTime = Date.now();
+
+      function updateConfetti() {
+        ctx.clearRect(0, 0, width, height);
+
+        const elapsed = Date.now() - startTime;
+        let stillVisible = false;
+
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += p.gravity;
+          p.vx *= p.drag;
+          p.vy *= p.drag;
+          p.rotation += p.vRot;
+
+          if (elapsed > 2000) {
+            p.opacity -= 0.012;
+          }
+
+          if (p.opacity > 0 && p.y < height + 50) {
+            stillVisible = true;
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate((p.rotation * Math.PI) / 180);
+            ctx.globalAlpha = Math.max(0, p.opacity);
+            ctx.fillStyle = p.color;
+            ctx.fillRect(-p.size / 2, -p.size / 2, p.size, p.size * 0.6);
+            ctx.restore();
+          }
+        });
+
+        if (stillVisible && elapsed < 6000) {
+          animationFrame = requestAnimationFrame(updateConfetti);
+        } else {
+          ctx.clearRect(0, 0, width, height);
+          cancelAnimationFrame(animationFrame);
+        }
+      }
+
+      requestAnimationFrame(updateConfetti);
+    })();
+  </script>
+</body>
+</html>
